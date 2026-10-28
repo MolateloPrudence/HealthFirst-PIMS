@@ -1,18 +1,38 @@
-# HealthFirst Pharmacy Inventory Management System (PIMS)
+# 🏥 HealthFirst Pharmacy Inventory Management System (PIMS)
 
-*Student Name: Molatelo Prudence Molele
-*Course:* Programming 732
+A comprehensive desktop application built with *Java (Swing)* and *MySQL* to manage pharmacy inventory, process point-of-sale transactions, and generate business reports.
 
-##  Default Login Credentials
-*   *Admin Account:* admin / admin123
-*   *Cashier Account:* cashier / cash123
+## 🚀 Quick Start (How to Run)
+*Prerequisites:* Java 8+ installed on your machine.
+1. *Database Setup:* Run the database.sql file in MySQL Workbench to create the schema and sample data.
+2. *App Setup:* Update the database credentials in src/pims_project/database/DBConnection.java to match your local MySQL username and password.
+3. *Run:* Download the .jar file from the /executable folder and double-click to run, OR open the project in NetBeans and run LoginFrame.java.
 
-##  How to Run the Application
-1.  *Database:* Open MySQL Workbench and run the database (3).sql script to create the pims_db database and tables.
-2.  *Password Setup:* Open src/pims_project/database/DBConnection.java and change "YOUR_ROOT_PASSWORD" to your actual MySQL password.
-3.  *Run:* Open the project in NetBeans and run LoginFrame.java, or run the executable .jar file.
+### 🔑 Default Login Credentials
+*   *Admin:* admin / admin123 (Full access to inventory, users, and reports)
+*   *Cashier:* cashier / cash123 (Point-of-Sale and stock check)
 
-## Technologies Used
-*   Java (Swing / AWT)
-*   JDBC (MySQL Connector)
-*   MySQL Database
+## ✨ Key Features
+*   *Role-Based Authentication:* Secure login redirecting Admins and Cashiers to separate dashboards.
+*   *Point of Sale (POS):* Fast cart system with real-time stock validation and receipt generation.
+*   *Inventory Management:* Full CRUD (Create, Read, Update, Delete) for medicines and suppliers.
+*   *Business Reports:* Generate Sales, Item-Wise, Low-Stock, and Expiry reports with CSV export capabilities.
+
+##  Tech Stack & Architecture
+*   Language: Java (JDK 11+)
+*   GUI: Java Swing / AWT
+*   Database: MySQL (JDBC)
+*   Architecture: Data Access Object (DAO) pattern for clean separation of UI and database logic.
+
+## 📸 Screenshots
+
+### Authentication & Dashboards
+![Login Screen](Login Screen.png)
+![Admin Dashboard](Admin Dashboard.png)
+
+### Point of Sale & Billing
+![Cashier POS](Cashier POS Screen.png)
+
+### Business Reports
+![Sales Report](sales report.png)
+![Low Stock Report](Low Stock Report.png)
