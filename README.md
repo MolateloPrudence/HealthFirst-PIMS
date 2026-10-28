@@ -27,12 +27,12 @@ Prerequisites: Java 8+ installed on your machine.
 ## Screenshots
 
 ### Authentication & Dashboards
-![Login Screen](Login Screen.png)
-![Admin Dashboard](Admin Dashboard.png)
+![Login Screen](Login_Screen.png)
+![Admin Dashboard](Admin_Dashboard.png)
 
 ### Point of Sale & Billing
-![Cashier POS](Cashier POS Screen.png)
+![Cashier POS](Cashier_POS_Screen.png)
 
 ### Business Reports
-![Sales Report](sales report.png)
-![Low Stock Report](Low Stock Report.png)
+![Sales Report](sales_report.png)
+![Low Stock Report](Low_Stock_Report.png)
